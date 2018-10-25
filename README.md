@@ -1,4 +1,8 @@
-# k8s-3par
+# k8s - 3PAR Integration
+
+
+
+
 
 ### login to 3PAR
 
@@ -10,8 +14,17 @@
 
 ### create k8s create StorageClass
 
+
+
 ### create k8s create Persistent Storage
+
+
 
 ### show created Volume on 3PAR
 
+
+
 ### create k8s create POD
+
+
+
