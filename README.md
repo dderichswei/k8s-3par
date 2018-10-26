@@ -24,7 +24,7 @@ Here is an example of the HPE Docker Volume plugin being used in an OpenShift en
 
 ### show 3PAR Volume
 
-![Screenshot] (pictures/k8s-show-3par.gif)
+![Screenshot](pictures/k8s-show-3par.gif)
 
 ### create k8s create POD, create file within container, delete container
 
