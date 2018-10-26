@@ -1,8 +1,9 @@
 # k8s - 3PAR Integration
 
+## Kubernetes/OpenShift environment
+Here is an example of the HPE Docker Volume plugin being used in an OpenShift environment:
 
-
-
+![Screenshot](pictures/3PAR_k8_design_diagram.png)
 
 ### login to 3PAR
 
