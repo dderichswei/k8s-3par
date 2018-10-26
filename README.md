@@ -15,7 +15,7 @@
 
 ### create k8s create StorageClass
 
-![Screenshot](pictures/k8s-create-storageclass.gif)
+![Screenshot](pictures/k8-create-storageclass.gif)
 
 ### create k8s create Persistent Storage
 
