@@ -1,30 +1,31 @@
 # k8s - 3PAR Integration
 
-![Screenshot](pictures/k8s-show1.gif)
+
 
 
 
 ### login to 3PAR
 
-
+![Screenshot](pictures/k8s-show1.gif)
 
 ### start DORY
 
+![Screenshot](pictures/k8s-start-dory.gif)
 
 
 ### create k8s create StorageClass
 
-
+![Screenshot](pictures/k8s-create-storageclass.gif)
 
 ### create k8s create Persistent Storage
 
+![Screenshot](pictures/k8s-create-pvc.gif)
 
+### create k8s create POD, create file within container, delete container
 
-### show created Volume on 3PAR
+![Screenshot](pictures/k8s-create-pod1.gif)
 
+### create k8s create second POD, and show that the file still exists
 
-
-### create k8s create POD
-
-
+![Screenshot](pictures/k8s-create-pod2.gif)
 
