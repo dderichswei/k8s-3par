@@ -4,14 +4,14 @@ kubectl create -f - << EOF
 kind: Pod   
 apiVersion: v1
 metadata:
-  name: pod1
+  name: ddpod1
 spec:
   containers:
   - name: nginx
     image: nginx
     volumeMounts:
     - name: export
-      mountPath: /export
+      mountPath: /3par
   restartPolicy: Always
   volumes:
   - name: export
