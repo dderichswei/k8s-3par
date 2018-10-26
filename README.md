@@ -1,6 +1,6 @@
 # k8s - 3PAR Integration
 
-
+![Screenshot](pictures/k8s-show1.gif)
 
 
 
