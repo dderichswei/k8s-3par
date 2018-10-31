@@ -13,4 +13,3 @@ spec:
       storage: 20Gi
   storageClassName: dd3par
 EOF
-

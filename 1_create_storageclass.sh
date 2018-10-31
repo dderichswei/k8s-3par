@@ -9,4 +9,3 @@ provisioner: hpe.com/hpe
 parameters:
   size: "16"
 EOF
-
