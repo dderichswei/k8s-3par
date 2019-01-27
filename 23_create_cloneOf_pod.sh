@@ -4,7 +4,7 @@ oc create -f - << EOF
 kind: Pod   
 apiVersion: v1
 metadata:
-  name: ddpod2
+  name: ddpod4
 spec:
   containers:
   - name: nginx
@@ -16,7 +16,8 @@ spec:
   volumes:
   - name: export
     persistentVolumeClaim:
-      claimName: ddpvc1
+      claimName: ddpvc1-clone
 EOF
 
-watch oc describe pod ddpod2       # if container is started - PRESS CTRL - C
+watch oc describe pod ddpod4
+

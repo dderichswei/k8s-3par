@@ -1,10 +1,10 @@
 #!/bin/bash
-kubectl create -f - << EOF
+oc create -f - << EOF
 ---
 kind: Pod   
 apiVersion: v1
 metadata:
-  name: pod1
+  name: ddpod1
 spec:
   containers:
   - name: nginx
@@ -16,5 +16,8 @@ spec:
   volumes:
   - name: export
     persistentVolumeClaim:
-      claimName: pvc1
+      claimName: ddpvc1
 EOF
+
+
+watch oc describe pod ddpod1    # if container is started press CTRL-C
